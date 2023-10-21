@@ -1,0 +1,16 @@
+{
+  "name": "Your chrome extension name",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
